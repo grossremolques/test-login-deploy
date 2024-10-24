@@ -8,11 +8,11 @@ import Home from './pages/Home';
 import Layout from './components/Layout';
 import Documents from './pages/Documents';
 //Others functions
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router-dom';
 import { AuthContextProvider } from './context/Auth/AuthContext';
 
 export default function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: <Layout/>,
