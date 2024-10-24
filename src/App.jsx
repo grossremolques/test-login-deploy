@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './scss/custom.scss'
 //Pages
-import Login from './pages/login';
+import Login from './pages/LoginPage';
 import Home from './pages/Home';
 import Layout from './components/Layout';
 import Documents from './pages/Documents';
