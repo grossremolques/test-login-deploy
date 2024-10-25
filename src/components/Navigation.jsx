@@ -25,13 +25,14 @@ export default function Navigation() {
           />
           Operative Modules
         </NavLink>
+        {/* dropdown-item */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <NavLink to='/' className='nav-link'>Home</NavLink>
             <NavLink to='/documents' className='nav-link'>Documentos</NavLink>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="Opciones" id="basic-nav-dropdown">
+              <NavLink to='/new-document' className='dropdown-item'>Registrar</NavLink>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
